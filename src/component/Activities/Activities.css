@@ -3,10 +3,7 @@
     grid-template-columns: 5fr 2fr;
 }
 .places-container{
-    background-color: aqua;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
 }
 .cart-container{
-    background-color: aquamarine;
+    background-color: red
 }

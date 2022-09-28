@@ -5,12 +5,11 @@ import "./Activities.css";
 const Activities = () => {
   return (
     <div className="activities-container">
-      <Title></Title>
       <div className="places-container">
-        <h3>Activities Places</h3>
+        <Title></Title>
       </div>
       <div className="cart-container">
-        <h3>Cart Activities</h3>
+        <h3>Cart Container</h3>
       </div>
     </div>
   );
