@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Ratargul Swamp Forest",
+    "timeRequired": "2 hours",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/16/90/17/1601276762884-1601276610323.jpg?w=1100&h=-1&s=1",
+    "quantity": 0
+  },
+  {
+    "id": "2",
+    "name": "Hum Hum Water Falls",
+    "timeRequired": "3 hours",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/62/a0/75/the-beauty-of-humhum.jpg?w=1400&h=-1&s=1",
+    "quantity": 0
+  },
+  {
+    "id": "3",
+    "name": "Jadukata River",
+    "timeRequired": "8 hours",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/31/19/e1/jadukata-river.jpg?w=1400&h=-1&s=1",
+    "quantity": 0
+  },
+  {
+    "id": "4",
+    "name": "Ali Amjad Clock Tower",
+    "timeRequired": "30 minutes",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e5/3b/d7/ali-amjad-clock-tower.jpg?w=1100&h=-1&s=1",
+    "quantity": 0
+  },
+  {
+    "id": "5",
+    "name": "Shahjalal Dorgha",
+    "timeRequired": "45 minutes",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/6a/01/8f/great-place-to-worship.jpg?w=1600&h=-1&s=1",
+    "quantity": 0
+  },
+  {
+    "id": "6",
+    "name": "Bisnakandi",
+    "timeRequired": "5 hours",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/fd/37/e9/bisnakandi.jpg?w=2000&h=-1&s=1",
+    "quantity": 0
+  }
+]
