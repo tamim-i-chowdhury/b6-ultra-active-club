@@ -1,4 +1,5 @@
 import React from "react";
+import Places from "../Places/Places";
 import Title from "../Title/Title";
 import "./Activities.css";
 
@@ -7,6 +8,7 @@ const Activities = () => {
     <div className="activities-container">
       <div className="places-container">
         <Title></Title>
+        <Places></Places>
       </div>
       <div className="cart-container">
         <h3>Cart Container</h3>
