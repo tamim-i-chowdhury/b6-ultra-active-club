@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Place from "../Place/Place";
+import "./Places.css";
 
 const Places = () => {
   const [places, setPlaces] = useState([]);
@@ -10,6 +12,11 @@ const Places = () => {
   return (
     <div>
       <h2>Things to Do in Sylhet City</h2>
+      <div className="places-container">
+        {places.map((place) => (
+          <Place place={place} key={place.id}></Place>
+        ))}
+      </div>
     </div>
   );
 };

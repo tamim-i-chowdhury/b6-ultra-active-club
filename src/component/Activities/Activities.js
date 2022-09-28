@@ -6,7 +6,7 @@ import "./Activities.css";
 const Activities = () => {
   return (
     <div className="activities-container">
-      <div className="places-container">
+      <div className="amazing-sylhet-container">
         <Title></Title>
         <Places></Places>
       </div>
