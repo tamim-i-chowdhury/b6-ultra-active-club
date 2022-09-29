@@ -3,15 +3,15 @@
     "id": "1",
     "name": "Ratargul Swamp Forest",
     "placeInfo": "Some parts are so awesome that you might just stop the boat and wonder to absorb the beauty around...",
-    "timeRequired": "2 hours",
-    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/16/90/17/1601276762884-1601276610323.jpg?w=1100&h=-1&s=1",
+    "timeRequired": "2h",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ratargul_Swamp_forest_Entrance.jpg",
     "quantity": 0
   },
   {
     "id": "2",
     "name": "Hum Hum Water Falls",
     "placeInfo": "Hum hum waterfall is one of the famous and amazing waterfalls located at Razkandi reserve forest in Moulovibazar...",
-    "timeRequired": "3 hours",
+    "timeRequired": "3h",
     "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/62/a0/75/the-beauty-of-humhum.jpg?w=1400&h=-1&s=1",
     "quantity": 0
   },
@@ -19,7 +19,7 @@
     "id": "3",
     "name": "Jadukata River",
     "placeInfo": "The best time will be February or March for only visit this river. In this time you will get the best view of this river....",
-    "timeRequired": "8 hours",
+    "timeRequired": "8h",
     "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/31/19/e1/jadukata-river.jpg?w=1400&h=-1&s=1",
     "quantity": 0
   },
@@ -27,7 +27,7 @@
     "id": "4",
     "name": "Ali Amjad Clock Tower",
     "placeInfo": "Ali Amjad's Clock is one of the popular attractions and is the oldest clock tower located on the Northern bank of the...",
-    "timeRequired": "30 minutes",
+    "timeRequired": "30min",
     "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e5/3b/d7/ali-amjad-clock-tower.jpg?w=1100&h=-1&s=1",
     "quantity": 0
   },
@@ -35,15 +35,15 @@
     "id": "5",
     "name": "Shahjalal Dorgha",
     "placeInfo": "Hazrat Shahjalal Mazar Sharif is a holy & historical place in Sylhet. The largest mosque in Sylhet was built at the...",
-    "timeRequired": "45 minutes",
-    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/6a/01/8f/great-place-to-worship.jpg?w=1600&h=-1&s=1",
+    "timeRequired": "45min",
+    "img": "http://offroadbangladesh.com/wp-content/uploads/2015/03/Shah-Jalal-Mazar-Mosque-Ali-Siddiquee1-626x365.jpg",
     "quantity": 0
   },
   {
     "id": "6",
     "name": "Bisnakandi",
     "placeInfo": "The boat trip from the nearby ghat is awesome, so is the place where they take you...",
-    "timeRequired": "5 hours",
+    "timeRequired": "5h",
     "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/fd/37/e9/bisnakandi.jpg?w=2000&h=-1&s=1",
     "quantity": 0
   }

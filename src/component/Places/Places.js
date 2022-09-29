@@ -10,7 +10,7 @@ const Places = () => {
       .then((data) => setPlaces(data));
   }, []);
   return (
-    <div>
+    <div className="places-section">
       <h2>Things to Do in Sylhet City</h2>
       <div className="places-container">
         {places.map((place) => (
