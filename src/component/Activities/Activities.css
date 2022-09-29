@@ -6,3 +6,21 @@
 .cart-container{
     background-color: aliceblue;
 }
+@media screen and (max-width: 576px){
+    .activities-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768) {
+    .activities-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .activities-container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+}

@@ -15,3 +15,26 @@
     background-color:aquamarine;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 576px) {
+    .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 25px auto;
+    }
+}

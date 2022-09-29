@@ -1,9 +1,27 @@
 .places-section{
-    background-color: aquamarine;
+    margin: 0 50px;
+    margin-bottom: 50px;
 }
 .places-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    background-color: beige;
+}
+@media screen and (max-width: 576px) {
+    .places-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .places-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .places-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
