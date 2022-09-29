@@ -1,0 +1,79 @@
+.personal-information{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.personal-information img{
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.personal-information h5, p, h3{
+    margin: 10px;
+}
+.unit-measurement{
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    margin: 25px 20px;
+    border-radius: 10px;
+}
+.unit-measurement span{
+    color: lightgray;
+    font-size: 16px;
+}
+.breaking-time{
+    margin: 25px 20px;
+}
+.breaking-time h3{
+    margin-bottom: 25px;
+}
+.breaking-time-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+}
+.breaking-time-container button{
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.breaking-time-container span{
+    font-size: 10px;
+}
+.tour-details{
+    margin: 25px 20px;
+}
+.tour-details h3{
+    font-size: 20px;
+}
+.tour-duration{
+    background-color: bisque;
+    padding: 2px 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.tour-details h4{
+    text-align: center;
+    font-weight: 500;
+}
+.tour-details span{
+    font-weight: 300;
+}
+.break-time{
+    background-color: bisque;
+    padding: 2px 25px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.btn-completed{
+    margin: 35px 20px;
+    padding: 15px 75px;
+    border: none;
+    border-radius: 10px;
+    background-color: aquamarine;
+    font-size: 20px;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import Cart from "../Cart/Cart";
 import Places from "../Places/Places";
 import Title from "../Title/Title";
 import "./Activities.css";
@@ -11,7 +12,7 @@ const Activities = () => {
         <Places></Places>
       </div>
       <div className="cart-container">
-        <h3>Cart Container</h3>
+        <Cart></Cart>
       </div>
     </div>
   );
