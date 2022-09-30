@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import myFbProfile from "../../images/myFbProfile.jpeg";
 import "./Cart.css";
+import { ToastContainer, toast } from "react-toastify";
 
 const Cart = (props) => {
   console.log(props.totalTime);
+  const notify = () => toast("My activity's completed, wow!!!");
   const [breakTime, setBreakTime] = useState(0);
   const handleAddToBreakTime = (breakTimelength) => {
     setBreakTime(breakTimelength);
@@ -68,7 +70,10 @@ const Cart = (props) => {
           </h4>
         </div>
       </div>
-      <button className="btn-completed">Activity Completed</button>
+      <ToastContainer />
+      <button onClick={notify} className="btn-completed">
+        Activity Completed
+      </button>
     </div>
   );
 };

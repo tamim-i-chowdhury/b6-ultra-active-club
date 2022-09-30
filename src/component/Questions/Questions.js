@@ -6,7 +6,7 @@ const Questions = () => {
   return (
     <div className="questions-container">
       <hr />
-      <h2>Most Common Questions in JS</h2>
+      <h2>Most Common Questions in React JS</h2>
       <Question></Question>
     </div>
   );
