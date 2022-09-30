@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Cart from "../Cart/Cart";
 import Places from "../Places/Places";
 import Title from "../Title/Title";
 import "./Activities.css";
 
 const Activities = () => {
-  let time;
+  let time = 0;
+  const [totalTime, setTotalTime] = useState(0);
   const handleAddToCart = (timeRequired) => {
-    time = parseInt(timeRequired) * 60;
+    time = time + parseInt(timeRequired);
+    setTotalTime(time);
   };
+
   return (
     <div className="activities-container">
       <div className="amazing-sylhet-container">
@@ -16,7 +19,7 @@ const Activities = () => {
         <Places handleAddToCart={handleAddToCart}></Places>
       </div>
       <div className="cart-container">
-        <Cart time={time}></Cart>
+        <Cart totalTime={totalTime}></Cart>
       </div>
     </div>
   );

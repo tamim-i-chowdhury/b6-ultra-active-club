@@ -3,9 +3,10 @@ import myFbProfile from "../../images/myFbProfile.jpeg";
 import "./Cart.css";
 
 const Cart = (props) => {
+  console.log(props.totalTime);
   const [breakTime, setBreakTime] = useState(0);
-  const handleAddToBreakTime = (breakTime) => {
-    setBreakTime(breakTime);
+  const handleAddToBreakTime = (breakTimelength) => {
+    setBreakTime(breakTimelength);
   };
   return (
     <div className="cart-details">
