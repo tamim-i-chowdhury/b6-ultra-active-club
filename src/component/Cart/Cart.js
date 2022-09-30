@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import myFbProfile from "../../images/myFbProfile.jpeg";
 import "./Cart.css";
 
-const Cart = () => {
+const Cart = (props) => {
+  const [breakTime, setBreakTime] = useState(0);
+  const handleAddToBreakTime = (breakTime) => {
+    setBreakTime(breakTime);
+  };
   return (
     <div className="cart-details">
       <div className="personal-information">
@@ -36,16 +40,16 @@ const Cart = () => {
       <div className="breaking-time">
         <h3>Add A Break</h3>
         <div className="breaking-time-container">
-          <button>
+          <button onClick={() => handleAddToBreakTime(15)}>
             15<span>min</span>
           </button>
-          <button>
+          <button onClick={() => handleAddToBreakTime(30)}>
             30<span>min</span>
           </button>
-          <button>
+          <button onClick={() => handleAddToBreakTime(45)}>
             45<span>min</span>
           </button>
-          <button>
+          <button onClick={() => handleAddToBreakTime(60)}>
             60<span>min</span>
           </button>
         </div>
@@ -59,7 +63,7 @@ const Cart = () => {
         </div>
         <div className="break-time">
           <h4>
-            Break Time: <span>45 minutes</span>{" "}
+            Break Time: <span>{breakTime} mintues</span>
           </h4>
         </div>
       </div>

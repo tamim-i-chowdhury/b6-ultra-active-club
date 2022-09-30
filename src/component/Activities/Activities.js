@@ -5,14 +5,18 @@ import Title from "../Title/Title";
 import "./Activities.css";
 
 const Activities = () => {
+  let time;
+  const handleAddToCart = (timeRequired) => {
+    time = parseInt(timeRequired) * 60;
+  };
   return (
     <div className="activities-container">
       <div className="amazing-sylhet-container">
         <Title></Title>
-        <Places></Places>
+        <Places handleAddToCart={handleAddToCart}></Places>
       </div>
       <div className="cart-container">
-        <Cart></Cart>
+        <Cart time={time}></Cart>
       </div>
     </div>
   );

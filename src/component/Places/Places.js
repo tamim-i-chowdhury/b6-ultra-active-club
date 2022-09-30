@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Place from "../Place/Place";
 import "./Places.css";
 
-const Places = () => {
+const Places = (props) => {
   const [places, setPlaces] = useState([]);
   useEffect(() => {
     fetch("places.json")
@@ -14,7 +14,11 @@ const Places = () => {
       <h2>Things to Do in Sylhet City</h2>
       <div className="places-container">
         {places.map((place) => (
-          <Place place={place} key={place.id}></Place>
+          <Place
+            place={place}
+            handleAddToCart={props.handleAddToCart}
+            key={place.id}
+          ></Place>
         ))}
       </div>
     </div>
