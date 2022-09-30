@@ -10,7 +10,7 @@ const Place = ({ handleAddToCart, place }) => {
       <p>{placeInfo}</p>
       <h5>Time Required: {timeRequired}</h5>
       <button
-        onClick={() => handleAddToCart(timeRequired)}
+        onClick={() => handleAddToCart(place)}
         className="btn-add-to-list"
       >
         Add to list

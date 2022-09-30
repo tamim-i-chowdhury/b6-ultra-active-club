@@ -3,13 +3,16 @@ import myFbProfile from "../../images/myFbProfile.jpeg";
 import "./Cart.css";
 import { ToastContainer, toast } from "react-toastify";
 
-const Cart = (props) => {
-  console.log(props.totalTime);
+const Cart = ({ places }) => {
   const notify = () => toast("My activity's completed, wow!!!");
   const [breakTime, setBreakTime] = useState(0);
   const handleAddToBreakTime = (breakTimelength) => {
     setBreakTime(breakTimelength);
   };
+  let totalTimeRequired = 0;
+  for (const place of places) {
+    totalTimeRequired += parseInt(place.timeRequired);
+  }
   return (
     <div className="cart-details">
       <div className="personal-information">
@@ -61,7 +64,7 @@ const Cart = (props) => {
         <h3>Tour Details</h3>
         <div className="tour-duration">
           <h4>
-            Tour Duration: <span>200 mintues</span>
+            Tour Duration: <span>{totalTimeRequired} hours</span>
           </h4>
         </div>
         <div className="break-time">

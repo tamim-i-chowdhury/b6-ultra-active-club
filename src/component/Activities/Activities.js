@@ -5,13 +5,11 @@ import Title from "../Title/Title";
 import "./Activities.css";
 
 const Activities = () => {
-  let time = 0;
-  const [totalTime, setTotalTime] = useState(0);
-  const handleAddToCart = (timeRequired) => {
-    time = time + parseInt(timeRequired);
-    setTotalTime(time);
+  const [places, setPlaces] = useState([]);
+  const handleAddToCart = (place) => {
+    const newPlaces = [...places, place];
+    setPlaces(newPlaces);
   };
-
   return (
     <div className="activities-container">
       <div className="amazing-sylhet-container">
@@ -19,7 +17,7 @@ const Activities = () => {
         <Places handleAddToCart={handleAddToCart}></Places>
       </div>
       <div className="cart-container">
-        <Cart totalTime={totalTime}></Cart>
+        <Cart places={places}></Cart>
       </div>
     </div>
   );
